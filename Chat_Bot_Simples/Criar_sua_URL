@@ -1,0 +1,13 @@
+Para obter a chave de assinatura (subscription key) do Microsoft Azure's Language Understanding (LUIS), siga estas etapas:
+
+    Crie um recurso LUIS no Azure: Acesse o portal do Azure (https://portal.azure.com) e crie um novo recurso de LUIS. Se você não tiver uma conta, será necessário criar uma.
+
+    Crie ou acesse seu aplicativo LUIS: Depois de criar o recurso, acesse o serviço LUIS. Você precisará criar um novo aplicativo ou usar um aplicativo existente.
+
+    Obtenha a chave de assinatura (subscription key): No portal do Azure, vá para as configurações do seu aplicativo LUIS. Geralmente, a chave de assinatura (subscription key) pode ser encontrada na seção de "Chaves" ou "Keys".
+
+    Crie e copie a chave adequada: Você pode ter chaves separadas para os ambientes de desenvolvimento, teste e produção. Copie a chave apropriada de acordo com o ambiente em que você está desenvolvendo seu aplicativo.
+
+Depois de copiar a chave apropriada, você pode usá-la em sua aplicação Python, atribuindo-a à variável LUIS_ENDPOINT como parte da URL, conforme mencionado anteriormente.
+
+Certifique-se de manter a chave de assinatura em segurança, já que ela concede acesso ao seu serviço LUIS.

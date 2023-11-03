@@ -1,0 +1,21 @@
+Se você está recebendo um erro relacionado à URL vazia, é necessário garantir que a variável LUIS_ENDPOINT contenha a URL correta do serviço LUIS. 
+Certifique-se de que a URL que você está usando foi fornecida pelo Microsoft Azure após a criação do serviço LUIS.
+
+Aqui está um exemplo de como você pode preencher a variável LUIS_ENDPOINT com a URL do seu serviço LUIS:
+
+python
+
+LUIS_ENDPOINT = "https://<sua-regiao>.api.cognitive.microsoft.com/luis/v2.0/apps/<seu-app-id>?subscription-key=<sua-chave>&verbose=true&q="
+
+Substitua <sua-regiao>, <seu-app-id> e <sua-chave> pelos valores reais correspondentes à sua conta e aplicativo LUIS.
+
+A URL deve ter o formato geral semelhante ao exemplo fornecido acima. Certifique-se de que os elementos estejam corretos:
+
+    <sua-regiao> deve ser substituído pela região onde o serviço LUIS está localizado (por exemplo, "westus", "eastus", etc.).
+    <seu-app-id> é o ID único do seu aplicativo no LUIS.
+    <sua-chave> refere-se à chave de assinatura (subscription key) do seu serviço LUIS.
+
+A URL deve apontar para o endpoint correto de sua aplicação LUIS.
+
+Depois de configurar corretamente a variável LUIS_ENDPOINT com a URL adequada do seu serviço LUIS, o código deverá funcionar corretamente para interagir com o serviço LUIS. 
+Certifique-se de que a URL seja válida e que você tem permissão para acessar o serviço LUIS com a chave de assinatura fornecida.
