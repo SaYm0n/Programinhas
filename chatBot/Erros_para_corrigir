@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+c:\Users\marci\OneDrive\Documentos\GitHub\Chat-Bot-IA\chatBot\chatBot_Gradio in line 30
+     28 # from credentials.yml import user name and password
+     29 my_credentials = yaml.load(content, Loader=yaml.FullLoader)
+---> 30 user, password = my_credentials["user"], my_credentials["password"]
+     31 openai.api_key = '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' #my_credentials["api"] 
+     33 # Login to the email server
+
+TypeError: 'NoneType' object is not subscriptable
